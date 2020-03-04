@@ -140,7 +140,7 @@ public class RunComponent extends BaseComponent implements BeanParent, ActionLis
 		uploadWindow.setTitleBackground(Echo2Application.getButtonBackgroundColor());
 		uploadWindow.setBorder(new FillImageBorder(Echo2Application.getButtonBackgroundColor(), new Insets(0, 0, 0, 0), new Insets(0, 0, 0, 0)));
 		uploadWindow.setWidth(new Extent(480));
-		uploadWindow.setHeight(new Extent(360));
+		uploadWindow.setHeight(new Extent(110));
 		uploadWindow.setInsets(new Insets(10, 0, 10, 0));
 		uploadWindow.add(uploadColumn);
 		uploadWindow.setDefaultCloseOperation(WindowPane.HIDE_ON_CLOSE);
